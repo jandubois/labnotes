@@ -1,4 +1,4 @@
-baseURL: http://labnotes.jandubois.com/
+baseURL: https://labnotes.jandubois.com/
 languageCode: en
 title: Under the Hood
 theme: anatole
@@ -50,7 +50,7 @@ params:
 
   - icon: "fas fa-rss"
     title: Feed
-    url: http://labnotes.jandubois.com/notes/index.xml
+    url: https://labnotes.jandubois.com/notes/index.xml
 
 menus:
   main:
