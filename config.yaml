@@ -1,4 +1,84 @@
-baseURL: http://labnotes.jandubois/
-languageCode: en-us
+baseURL: http://labnotes.jandubois.com/
+languageCode: en
 title: Under the Hood
 theme: anatole
+summarylength: 10
+enableEmoji: true
+enableRobotsTXT: true
+
+params:
+  contentratio: 0.7
+  doNotLoadAnimations: true
+
+  title: Under the Hood
+  description: |
+    Taking things apart.
+    Figuring out how they work.
+    Trying to put them back together.
+  author: Jan Dubois
+  profilePicture: images/profile.jpg
+  keywords: ""
+  favicon: favicons/
+  mainSections: ["notes"]
+  images: ["images/site-feature-image.png"]
+  #singleDateFormat: "2/1/2006"
+  #indexDateFormat: "2/1/2006"
+  #listDateFormat: "2/1/2006"
+
+  readMore: true
+  postSectionName: notes
+
+  reversepagetitle: true
+
+  # use 'fab' when brand icons, use 'fas' when standard solid icons.
+  socialIcons:
+  #- icon: "fab fa-linkedin"
+  #  title: Linkedin
+  #  url: "https://www.linkedin.com/in/jandubois/"
+
+  - icon: "fab fa-github"
+    title: GitHub
+    url: https://github.com/jandubois
+
+  - icon: "fab fa-twitter"
+    title: Twitter
+    url: https://twitter.com/jandubois
+
+  - icon: "fas fa-envelope"
+    title: e-mail
+    url: mailto:jan@jandubois.com
+
+  - icon: "fas fa-rss"
+    title: Feed
+    url: http://labnotes.jandubois.com/notes/index.xml
+
+menus:
+  main:
+  - name: Home
+    identifier: home
+    weight: 100
+    url: /
+
+  - name: Notes
+    weight: 200
+    identifier: notes
+    url: /notes/
+
+  - name: About
+    weight: 400
+    identifier: about
+    url: /about/
+
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
