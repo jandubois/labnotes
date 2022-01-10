@@ -27,6 +27,7 @@ params:
 
   readMore: true
   postSectionName: notes
+  rssFullContent: true
 
   reversepagetitle: true
 
