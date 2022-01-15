@@ -19,14 +19,14 @@ params:
   profilePicture: images/profile.jpg
   keywords: ""
   favicon: favicons/
-  mainSections: ["notes"]
+  mainSections: ["note"]
   images: ["images/site-feature-image.png"]
   #singleDateFormat: "2/1/2006"
   #indexDateFormat: "2/1/2006"
   #listDateFormat: "2/1/2006"
 
   readMore: true
-  postSectionName: notes
+  postSectionName: note
   rssFullContent: true
 
   reversepagetitle: true
@@ -51,7 +51,7 @@ params:
 
   - icon: "fas fa-rss"
     title: Feed
-    url: https://labnotes.jandubois.com/notes/index.xml
+    url: https://labnotes.jandubois.com/note/index.xml
 
 menus:
   main:
@@ -63,7 +63,7 @@ menus:
   - name: Notes
     weight: 200
     identifier: notes
-    url: /notes/
+    url: /note/
 
   - name: About
     weight: 400
